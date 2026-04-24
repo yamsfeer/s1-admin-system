@@ -1,0 +1,20 @@
+
+.technician-list-page[data-v-d07802b7] {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+.page-header[data-v-d07802b7] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.page-header h2[data-v-d07802b7] {
+  margin: 0;
+  font-size: 20px;
+  color: #303133;
+}
+.technician-table[data-v-d07802b7] {
+  margin-bottom: 20px;
+}

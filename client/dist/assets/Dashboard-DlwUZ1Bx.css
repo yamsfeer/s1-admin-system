@@ -1,0 +1,75 @@
+
+.stat-card[data-v-6eb58e31] {
+  height: 120px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  border-left: 4px solid;
+}
+.stat-card[data-v-6eb58e31]:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+.stat-card__content[data-v-6eb58e31] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stat-card__number[data-v-6eb58e31] {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Monaco, Consolas, monospace;
+  line-height: 1.2;
+}
+.stat-card__label[data-v-6eb58e31] {
+  font-size: 14px;
+  color: #909399;
+  margin-top: 8px;
+}
+.stat-card__icon[data-v-6eb58e31] {
+  opacity: 0.85;
+}
+
+.dashboard-page[data-v-824ec5c2] {
+  padding: 0;
+}
+.page-header[data-v-824ec5c2] {
+  margin-bottom: 24px;
+}
+.page-header h2[data-v-824ec5c2] {
+  margin: 0;
+  font-size: 20px;
+  color: #303133;
+  font-weight: 600;
+}
+
+/* 统计卡片区域 */
+.stat-cards[data-v-824ec5c2] {
+  margin-bottom: 24px;
+}
+
+/* 图表行 */
+.chart-row[data-v-824ec5c2] {
+  margin-bottom: 24px;
+}
+.chart-card[data-v-824ec5c2] {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+.chart-title[data-v-824ec5c2] {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #303133;
+}
+.chart-container[data-v-824ec5c2] {
+  height: 350px;
+  width: 100%;
+}

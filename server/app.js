@@ -14,7 +14,7 @@ const { success, fail } = require('./utils/response');
 const { initDb, closeDb } = require('./utils/db');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8011;
 
 // ---- 数据库初始化 ----
 initDb();
@@ -44,8 +44,8 @@ app.get('/api/health', (req, res) => {
 // ---- 业务路由挂载 ----
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/orders', require('./routes/orders'));
-// app.use('/api/technicians', require('./routes/technicians'));  // T008
-// app.use('/api/customers', require('./routes/customers'));      // T009
+app.use('/api/technicians', require('./routes/technicians'));    // T008
+app.use('/api/customers', require('./routes/customers'));        // T009
 app.use('/api/dashboard', require('./routes/dashboard'));        // T006
 
 // ---- SPA 兜底路由 ----
