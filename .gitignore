@@ -6,11 +6,9 @@ node_modules/
 .env.local
 .env.*.local
 
-# Database files
-*.db
+# Database files (保留 server/data/app.db 用于部署，排除运行时临时文件)
 *.db-shm
 *.db-wal
-data/
 
 # Logs
 *.log
